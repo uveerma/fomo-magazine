@@ -7,35 +7,9 @@ const Home: NextPage = () => {
     {
       id: 1,
       name: "Bonk Tee",
-      href: "#",
       price: 0.02,
-      color: "Eagle Black",
       imageSrc:
-        "https://shdw-drive.genesysgo.net/BfBZRXtX2ad9dVyJnc6Tbww8egupegtiV2xiwWCBYH1h/FmiCiglWIAIu3ao.jpeg",
-      imageAlt:
-        "Front of tote bag with washed black canvas body, black straps, and tan leather handles and accents.",
-    },
-    {
-      id: 2,
-      name: "Bonk Shoes",
-      href: "#",
-      price: 0.03,
-      color: "Washed Black",
-      imageSrc:
-        "https://shdw-drive.genesysgo.net/BfBZRXtX2ad9dVyJnc6Tbww8egupegtiV2xiwWCBYH1h/FmiQnUoXEAIyxhv.jpeg",
-      imageAlt:
-        "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-    },
-    {
-      id: 3,
-      name: "Samo Cap",
-      href: "#",
-      color: "Salmon",
-      price: 0.04,
-      quantity: 1,
-      imageSrc: "https://shdw-drive.genesysgo.net/BfBZRXtX2ad9dVyJnc6Tbww8egupegtiV2xiwWCBYH1h/download.jpeg",
-      imageAlt:
-        "Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.",
+        "https://res.cloudinary.com/dtzqgftjk/image/upload/v1687696737/IMG_5406_s44kgx.jpg",
     },
   ];
   const router = useRouter();
@@ -59,14 +33,12 @@ const Home: NextPage = () => {
                 <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                   <img
                     src={product.imageSrc}
-                    alt={product.imageAlt}
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
                 <h3 className="mt-4 font-medium text-gray-900">
                   {product.name}
                 </h3>
-                <p className="italic text-gray-500">{product.color}</p>
                 <p className="mt-2 font-medium text-gray-900">
                   $ {product.price}
                 </p>

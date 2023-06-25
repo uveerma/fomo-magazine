@@ -35,35 +35,19 @@ export default function Navbar() {
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
                     <img
-                      className="block h-8 w-auto rounded-full lg:hidden"
-                      src="https://static8.depositphotos.com/1472772/963/i/950/depositphotos_9632509-stock-photo-red-candy.jpg"
+                      className="block h-8 w-auto lg:hidden"
+                      src="https://res.cloudinary.com/dafvkudlx/image/upload/v1687688451/merchant-avatars/n2n3k0fsnxcycy2tkgn7.jpg"
                       alt="Your Company"
                     />
                     <img
-                      className="hidden h-8 w-auto rounded-full lg:block"
-                      src="https://static8.depositphotos.com/1472772/963/i/950/depositphotos_9632509-stock-photo-red-candy.jpg"
+                      className="hidden h-10 w-auto mt-2 lg:block"
+                      src="https://res.cloudinary.com/dafvkudlx/image/upload/v1687688451/merchant-avatars/n2n3k0fsnxcycy2tkgn7.jpg"
                       alt="Your Company"
                     />
                   </div>
-                  <button
-                    onClick={() => {
-                      router.push("/");
-                    }}
-                  >
                     <div className="inline-flex items-center pl-4 pt-1 text-xl font-bold text-gray-900">
-                      Candy Store
+                      FOMO Magazine
                     </div>
-                  </button>
-                  <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                    <button
-                      onClick={() => {
-                        router.push("/");
-                      }}
-                      className="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
-                    >
-                      {!router.query.id ? "Home" : "Go Back"}
-                    </button>
-                  </div>
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <button

@@ -149,7 +149,7 @@ export const Checkout = ({ open, setOpen, products }: Props) => {
                         </div>
                         <button
                           onClick={createSession}
-                          className="!w-full !h-10 bg-indigo-600 rounded-md text-white font-medium hover:bg-indigo-700"
+                          className="!w-full !h-10 bg-amber-500 rounded-md text-white font-medium hover:bg-amber-600"
                         >
                           {isLoading ? (
                             <svg
