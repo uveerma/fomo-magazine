@@ -32,8 +32,8 @@ export const Checkout = ({ open, setOpen, products }: Props) => {
     const { data } = await axios.post("/api/create-session", {
       items: products,
     });
-    // const url = data.payment_url.replace("checkout", "pos"); add this for POS mode
-    router.push(data.payment_url);
+    const url = data.payment_url.replace("checkout", "pos");
+    router.push(url);
   };
 
   useEffect(() => {

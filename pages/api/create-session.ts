@@ -7,8 +7,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     try {
       const response = await candypay.session.create({
-        success_url: "https://solpayments.vercel.app/success",
-        cancel_url: "https://solpayments.vercel.app/",
+        success_url: "https://fomomagazine.vercel.app/items/1",
+        cancel_url: "https://fomomagazine.vercel.app/items/1",
         tokens: ["samo", "bonk"],
         items: items,
       });
