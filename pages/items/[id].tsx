@@ -78,8 +78,13 @@ const Item = () => {
                   </p>
                 </div>
 
+                <div className="mt-3">
+                  <p className="text-xl font-bold tracking-tight text-gray-900">
+                  Rewards: Receive 1.31 million BONK on every purchase ($0.50)! 
+                  </p>
+                </div>
 
-                <div className="mt-6">
+                <div className="mt-3">
                   <h3 className="sr-only">Description</h3>
 
                   <div
@@ -87,6 +92,8 @@ const Item = () => {
                   />
                   {product.description}
                 </div>
+
+                
 
                 {/* Colors */}
                 <h1 className="mb-3 mt-10">Quantity</h1>
