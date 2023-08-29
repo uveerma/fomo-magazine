@@ -17,7 +17,7 @@ import {
   
   export const airdrop = async (walletAddress: string, amount: number) => {
     const CONNECTION = new Connection(
-        "https://mainnet.helius-rpc.com/?api-key=81905de2-7221-4d66-af48-138f6d0f2918"
+      process.env.RPC_URL!
       );
 
     const payer = Keypair.fromSecretKey(
