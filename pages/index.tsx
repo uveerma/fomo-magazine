@@ -6,10 +6,10 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      name: "Bonk Tee",
-      price: 0.02,
+      name: "FOMO Magazine - 5th edition",
+      price: 4,
       imageSrc:
-        "https://res.cloudinary.com/dtzqgftjk/image/upload/v1687696737/IMG_5406_s44kgx.jpg",
+       "https://i.ibb.co/q0gsrrS/image.png"
     },
   ];
   const router = useRouter();
