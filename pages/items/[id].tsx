@@ -18,7 +18,7 @@ import { ProductContext } from "../_app";
 const products = [
   {
     name: "FOMO Magazine - 5th edition",
-    price: 4,
+    price: 0.1,
     image: "https://i.ibb.co/q0gsrrS/image.png",
     description: "Physical copies of this Solana Hot Girl Club edition are exclusively available at the Tel Berlin Hacker House. Please follow @magfomo on twitter for more info and tweet us with your magazine 🙂",
   },
