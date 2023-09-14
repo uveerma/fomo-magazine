@@ -6,8 +6,8 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      name: "FOMO Magazine - 5th edition",
-      price: 4,
+      name: "FOMO Magazine - 6th edition",
+      price: 3,
       imageSrc:
        "https://i.ibb.co/q0gsrrS/image.png"
     },

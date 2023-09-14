@@ -17,10 +17,10 @@ import { Checkout } from "../../components/checkout";
 import { ProductContext } from "../_app";
 const products = [
   {
-    name: "FOMO Magazine - 5th edition",
-    price: 4,
+    name: "FOMO Magazine - 6th Edition",
+    price: 3,
     image: "https://i.ibb.co/q0gsrrS/image.png",
-    description: "Physical copies of this Solana Hot Girl Club edition are exclusively available at the Tel Berlin Hacker House. Please follow @magfomo on twitter for more info and tweet us with your magazine 🙂",
+    description: "Physical copies of this Claynosaurz edition are exclusively available at the India Hacker Houses. Please follow @magfomo on twitter for more info, and tweet us with your magazine 🙂",
   },
 ];
 function classNames(...classes: any[]) {
@@ -80,7 +80,7 @@ const Item = () => {
 
                 <div className="mt-3">
                   <p className="text-xl font-bold tracking-tight text-gray-900">
-                  Rewards: BONK T-Shirt and 1.95 million BONK sent to you on purchase! 
+                  Rewards: BONK T-Shirt, 1.95 million BONK and 1 ISC sent to you on purchase!
                   </p>
                 </div>
 
