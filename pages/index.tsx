@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       name: "FOMO Magazine - 6th edition",
       price: 3,
       imageSrc:
-       "https://i.ibb.co/q0gsrrS/image.png"
+       "https://i.ibb.co/YQZf0Xr/photo-5771643470195310523-y.jpg"
     },
   ];
   const router = useRouter();

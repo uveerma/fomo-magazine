@@ -19,7 +19,7 @@ const products = [
   {
     name: "FOMO Magazine - 6th Edition",
     price: 3,
-    image: "https://i.ibb.co/q0gsrrS/image.png",
+    image: "https://i.ibb.co/YQZf0Xr/photo-5771643470195310523-y.jpg",
     description: "Physical copies of this Claynosaurz edition are exclusively available at the India Hacker Houses. Please follow @magfomo on twitter for more info, and tweet us with your magazine 🙂",
   },
 ];
