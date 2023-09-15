@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@candypay/checkout-sdk':
-    specifier: 0.1.55
-    version: 0.1.55
+    specifier: 0.1.57
+    version: 0.1.57
   '@headlessui/react':
     specifier: ^1.7.3
     version: 1.7.3(react-dom@18.2.0)(react@18.2.0)
@@ -98,8 +98,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: false
 
-  /@candypay/checkout-sdk@0.1.55:
-    resolution: {integrity: sha512-zhHeVzGuDoSdUZpaEUyJY7MDPA6qOWfRMHKPKPQd+5Axvn7gld5/DZ6dBYSKeeTOBLFxcLc4T2sL5GTRODfZBA==}
+  /@candypay/checkout-sdk@0.1.57:
+    resolution: {integrity: sha512-uYUMx6W16hqUiVIuhiEC/25/HMR7l0yWxbtW2b2dAXSG93Yv473oPaf1MvHvkGFdnuE+W7oui3rBrjYFnCTybg==}
     dependencies:
       '@types/node': 18.7.18
       axios: 0.27.2
@@ -1967,18 +1967,6 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /node-fetch@2.6.7:
-    resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-    dependencies:
-      whatwg-url: 5.0.0
-    dev: false
-
   /node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
     engines: {node: 4.x || >=6.0.0}
@@ -2502,7 +2490,7 @@ packages:
   /svix-fetch@3.0.0:
     resolution: {integrity: sha512-rcADxEFhSqHbraZIsjyZNh4TF6V+koloX1OzZ+AQuObX9mZ2LIMhm1buZeuc5BIZPftZpJCMBsSiBaeszo9tRw==}
     dependencies:
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       whatwg-fetch: 3.6.2
     transitivePeerDependencies:
       - encoding
