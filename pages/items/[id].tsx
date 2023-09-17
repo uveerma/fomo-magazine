@@ -80,7 +80,7 @@ const Item = () => {
 
                 <div className="mt-3">
                   <p className="text-xl font-bold tracking-tight text-gray-900">
-                  Rewards: BONK T-Shirt, 1.95 million BONK and 1 ISC sent to you on purchase!
+                  Rewards: 1.95 million BONK and 1 ISC sent to you on purchase!
                   </p>
                 </div>
 
